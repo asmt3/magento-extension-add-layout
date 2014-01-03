@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <PMC_Whitepage>
+      <version>0.1.0</version>
+    </PMC_Whitepage>
+  </modules>
+  <global>
+    <page>
+      <layouts>
+        <PMC_Whitepage translate="label">
+          <label>White Page</label>
+          <template>page/whitepage.phtml</template>
+        </PMC_Whitepage>
+        
+        <PMC_Whitepage translate="label">
+          <label>Cameraworld 404</label>
+          <template>page/404.phtml</template>
+        </PMC_Whitepage>
+        <!-- add more layouts here -->
+      </layouts>
+    </page>
+  </global>
+</config>
